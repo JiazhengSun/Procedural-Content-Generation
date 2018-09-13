@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1621196048698690}
+  m_IsPrefabParent: 1
+--- !u!1 &1621196048698690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4083097550593522}
+  - component: {fileID: 114359124667356464}
+  m_Layer: 0
+  m_Name: TestCreature
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4083097550593522
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1621196048698690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114359124667356464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1621196048698690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5c4eea38ecc0d43824a0be7c780680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seed: 22
+  referencePoint: {x: 50, y: 0, z: 0}
+  TorsoControlPoint1: {x: 1, y: 0, z: 0}
+  TorsoControlPoint2: {x: 4, y: 5, z: 0}
+  TorsoControlPoint3: {x: 0, y: 6, z: 0}
+  TorsoControlPoint4: {x: 1, y: 10, z: 0}
+  Arm1: {fileID: 1231991069115344, guid: b9c712755716ec343ba87556f502ae87, type: 2}
+  Arm2: {fileID: 1601456253969496, guid: a22c45dd2bfcd0e45be336010ee469fb, type: 2}
+  Arm3: {fileID: 1119159110841624, guid: 5fafe6916bf7b47499908e6a7d41f513, type: 2}
+  Leg1: {fileID: 1783885763459660, guid: 33a0939c17240334cbb54984e2d143c2, type: 2}
+  Leg2: {fileID: 1502587906025872, guid: 56d09df03bcc41741b772aecd7b05ac2, type: 2}
+  Leg3: {fileID: 1780780514559424, guid: b344242f3d2ee3f41bf64d5b333427f1, type: 2}
+  Head1: {fileID: 1594575565568346, guid: 7e4fc125747108e448272fe1ebbad52e, type: 2}
+  Head2: {fileID: 1442921654053574, guid: 67030842cb5854d4da757582dd633bee, type: 2}
+  Head3: {fileID: 1427136066416066, guid: f167ce068855d9f4b82d633af8ed9f2a, type: 2}
